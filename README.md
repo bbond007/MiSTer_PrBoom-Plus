@@ -1,5 +1,6 @@
 # MiSTer_PrBoom-Plus
 PrBoom-Plus installer for the MiSTer FPGA platform
+
 Install:
 
       (Run) --> PrBoom-Plus_Installer.sh
@@ -26,3 +27,11 @@ FluidSynth:
 
              snd_soundfont             "/media/fat/linux/soundfonts/SC-55.sf2"
 
+
+Youtube videos:
+
+      DOOM.WAD - FluidSynth Audio --> https://youtu.be/iA-DIKye5qo
+	  
+      DOOM2.WAD - FluidSynth Audio --> https://youtu.be/8doAPU4ddZ4
+	  
+       
