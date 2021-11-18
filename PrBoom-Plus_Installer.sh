@@ -142,6 +142,7 @@ then
 	installGithubDEBS "$GITHUB_DEB_REPO|libasyncns0_0.8-6_armhf.deb|lib*|3|$INSTALL_DIR"
 	installGithubDEBS "$GITHUB_DEB_REPO|libbsd0_0.7.0-2_armhf.deb|lib*|2|$INSTALL_DIR"
 	installGithubDEBS "$GITHUB_DEB_REPO|libcaca0_0.99.beta19-2.1_armhf.deb|lib*|3|$INSTALL_DIR"
+	installGithubDEBS "$GITHUB_DEB_REPO|libdb5.3_5.3.28-12+deb9u1_armhf.deb|lib*|3|$INSTALL_DIR"
 	installGithubDEBS "$GITHUB_DEB_REPO|libdirectfb-1.2-9_1.2.10.0-8+deb9u1_armhf.deb|lib*|3|$INSTALL_DIR"
 	installGithubDEBS "$GITHUB_DEB_REPO|libdumb1_0.9.3-6+b3_armhf.deb|lib*|3|$INSTALL_DIR"
 	installGithubDEBS "$GITHUB_DEB_REPO|libflac8_1.3.2-3_armhf.deb|lib*|3|$INSTALL_DIR"
@@ -205,7 +206,6 @@ then
 	if [ "$FIX_MISSING_LIB_VERSION_INFO" = "TRUE" ];
 	then
 		installGithubDEBS "$GITHUB_DEB_REPO|libasound2_1.1.3-5_armhf.deb|lib*|3|$INSTALL_DIR"
-		installGithubDEBS "$GITHUB_DEB_REPO|libdb5.3_5.3.28-12+deb9u1_armhf.deb|lib*|3|$INSTALL_DIR"
 		installGithubDEBS "$GITHUB_DEB_REPO|libjack0_0.125.0-3_armhf.deb|lib*|3|$INSTALL_DIR"
 		installGithubDEBS "$GITHUB_DEB_REPO|libjbig0_2.1-3.1_armhf.deb|lib*|3|$INSTALL_DIR"
 		installGithubDEBS "$GITHUB_DEB_REPO|libncursesw6_6.1+20181013-2_armhf.deb|lib*|2|$INSTALL_DIR"
