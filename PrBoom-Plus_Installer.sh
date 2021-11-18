@@ -28,7 +28,7 @@ INSTALL_MULTIPLAYER=FALSE
 FIX_MISSING_LIB_VERSION_INFO=FALSE
 
 #These options probably should not be changed...
-DELETE_JUNK=TRUE
+DELETE_STUFF=TRUE
 DO_INSTALL=TRUE
 
 #------------------------------------------------------------------------------
@@ -220,12 +220,12 @@ then
 	mv "$INSTALL_DIR/libpcre.so.3.13.3" "$INSTALL_DIR/arm-linux-gnueabihf"
 	mv "$INSTALL_DIR/libpcre.so.3" "$INSTALL_DIR/arm-linux-gnueabihf"
 
-	if [ "$DELETE_JUNK" = "TRUE" ];
+	if [ "$DELETE_STUFF" = "TRUE" ];
 	then
-		echo "Deleting junk..."
-		for JUNK_FILE in "bash-completion" "bug" "doc" "doc-base" "lib" "lintian"  "man" "share" "games" "applications" "icons" "libpcre.so.3*";
+		echo "Deleting unused stuff..."
+		for STUFF_FILE in "bash-completion" "bug" "doc" "doc-base" "lib" "lintian"  "man" "share" "games" "applications" "icons" "libpcre.so.3*";
 		do
-			rm -rf "$INSTALL_DIR/$JUNK_FILE"
+			rm -rf "$INSTALL_DIR/$STUFF_FILE"
 		done
 	fi
 
