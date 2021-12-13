@@ -119,9 +119,9 @@ then
 	echo "Beginning Install..."
 	if [ -d "$INSTALL_DIR" ];
 	then
-		echo "ScummVM install directory found :)"
+		echo "Doom install directory found :)"
 	else
-		echo "ScummVM install directory not found :("
+		echo "Doom install directory not found :("
 		echo "Creating --> $INSTALL_DIR"
 		mkdir $INSTALL_DIR
 	fi
